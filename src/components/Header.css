@@ -1,0 +1,22 @@
+
+.header{
+background-image: url('../assets/header.jpg');
+background-size: cover;
+width:auto;
+height:600px;
+display:flex;
+justify-content:center;
+align-items:center;
+background-repeat:no-repeat;
+background-position:center center;
+flex-direction: column;
+}
+.header-span{
+align-items:center;
+top:50%;
+bottom:50%;
+text-align:center;
+font-size:6xl;
+color:white;
+
+}

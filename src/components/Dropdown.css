@@ -1,0 +1,36 @@
+.sosial-submenu {
+  width: 10rem;
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  top: 8vh;
+  z-index:1;
+
+  
+}
+.sosial-submenu li {
+  background: black;
+  cursor: pointer;
+
+}
+.sosial-submenu li a:hover {
+    background: #404be3;
+ 
+  }
+.sosial-submenu.clicked {
+  display: none;
+}
+.submenu-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #e8e8e8;
+
+
+  cursor:pointer;
+}
+.submenu-item:hover {
+  background: #181818;
+  cursor:pointer;
+}

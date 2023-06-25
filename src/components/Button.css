@@ -1,0 +1,28 @@
+.btn_reg{
+    border:2px  solid #181818;
+    padding: 6px 16px;
+    font-size :1rem;
+    color:#e8e8e8;
+    border-radius:5px;
+    cursor:pointer;
+}
+.btn_reg:hover{
+    color:#181818;
+    background:#e8e8e8
+
+}
+.btn-log{
+    border:none;
+    margin-left : 1rem;
+    background : #e8e8e8;
+    padding: 6px 20px;
+    font-size :1rem;
+    color:#181818;
+    border-radius:5px;
+    cursor:pointer;
+}
+.btn-log:hover{
+    border:2px  solid #181818;
+    background:none;
+    color:#e8e8e8
+}
