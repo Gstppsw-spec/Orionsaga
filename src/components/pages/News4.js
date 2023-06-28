@@ -155,7 +155,7 @@ const News4 = () => {
                 </div>
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm text-justify">{item.keterangan}</p>
+                  <p className="text-xl text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -170,12 +170,12 @@ const News4 = () => {
                   <img
                     src={`http://localhost:8000/shops/${item.gambar}`}
                     alt={item.nama}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm text-justify">{item.keterangan}</p>
+                  <p className="text-xl text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -190,7 +190,7 @@ const News4 = () => {
                   <img
                     src={`http://localhost:8000/heros/${item.gambar}`}
                     alt={item.nama}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
                 {/* <div className=" flex justify-center items-center px-2 py-4">
@@ -202,7 +202,7 @@ const News4 = () => {
                 </div> */}
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm text-justify">{item.keterangan}</p>
+                  <p className="text-xl text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -218,12 +218,12 @@ const News4 = () => {
                   <img
                     src={`http://localhost:8000/gears/${item.gambar}`}
                     alt={item.gambar}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm  text-justify">{item.keterangan}</p>
+                  <p className="text-xl  text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}

@@ -48,7 +48,7 @@ const Register = () => {
           icon: "success",
           text: "silahkan cek email anda untuk melakukan verifikasi akun anda",
         });
-        navigate("/");
+        navigate("/verifRegister");
       })
       .catch(({ response }) => {
         if (response.status === 422) {
@@ -135,9 +135,15 @@ const Register = () => {
             </button>
           </form>
           <div className="flex flex-row justify-center text-2xl mt-10 gap-5 text-gray-200">
+          <Link to="https://www.facebook.com">
             <BsFacebook />
+          </Link>
+          <Link to="https://discord.com/">
             <BsDiscord />
+          </Link>
+          <Link to="https://www.youtube.com/">
             <BsYoutube />
+          </Link>
           </div>
         </div>
       </div>

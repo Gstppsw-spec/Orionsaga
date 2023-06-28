@@ -35,19 +35,19 @@ export const serviceDropdown = [
     {
         id:1,
         title:"FACEBOOK",
-        path:"/facebook",
+        path:"https://www.facebook.com",
         cName:"submenu-item",
     },
     {
         id:2,
         title:"YOUTUBE",
-        path:"/youtube",
+        path:"/https://www.youtube.com/",
         cName:"submenu-item",
     },
     {
         id:3,
         title:"DISCORD",
-        path:"/discord",
+        path:"https://discord.com/",
         cName:"submenu-item",
     },
 ]

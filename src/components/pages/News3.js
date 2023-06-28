@@ -130,7 +130,7 @@ const News3 = () => {
                 {item.judul}
               </h1>
               <img
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[800px] object-cover"
                 src={`http://localhost:8000/newss/${item.gambar}`}
                 alt={item.judul}
               ></img>
@@ -150,12 +150,12 @@ const News3 = () => {
                   <img
                     src={`http://localhost:8000/events/${item.gambar}`}
                     alt={item.nama}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm text-justify">{item.keterangan}</p>
+                  <p className="text-xl text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -170,12 +170,12 @@ const News3 = () => {
                   <img
                     src={`http://localhost:8000/shops/${item.gambar}`}
                     alt={item.nama}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm text-justify">{item.keterangan}</p>
+                  <p className="text-xl text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -190,7 +190,7 @@ const News3 = () => {
                   <img
                     src={`http://localhost:8000/heros/${item.gambar}`}
                     alt={item.nama}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
                 {/* <div className=" flex justify-center items-center px-2 py-4">
@@ -202,7 +202,7 @@ const News3 = () => {
                 </div> */}
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm text-justify">{item.keterangan}</p>
+                  <p className="text-xl text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -218,12 +218,12 @@ const News3 = () => {
                   <img
                     src={`http://localhost:8000/gears/${item.gambar}`}
                     alt={item.gambar}
-                    className="max-w-[600px] max-h[600px]  object-cover justify-center"
+                    className="max-w-[800px] max-h[600px]  object-cover justify-center"
                   />
                 </div>
 
                 <div className=" flex justify-between px-2 py-4">
-                  <p className="text-sm  text-justify">{item.keterangan}</p>
+                  <p className="text-xl  text-justify">{item.keterangan}</p>
                 </div>
               </div>
             ))}
@@ -269,9 +269,9 @@ const News3 = () => {
                     />
                     <div className=" flex justify-between px-2 py-4">
                       <p className="text-sm">{item.tanggal}</p>
-                      <p className="text-sm font-bold text-red-500">
+                      {/* <p className="text-sm font-bold text-red-500 truncate">
                         {item.judul}
-                      </p>
+                      </p> */}
                     </div>
                     <div className="justify-center px-2 py-2">
                       <p className="font-bold text-2xl">{item.judul}</p>

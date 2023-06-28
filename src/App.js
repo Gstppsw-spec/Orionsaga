@@ -11,6 +11,7 @@ import Home from "./components/pages/Home";
 import News3 from "./components/pages/News3";
 import News4 from "./components/pages/News4";
 import Verifikasi from "./components/pages/Verifikasi";
+import VerifRegister from "./components/pages/VerifRegister";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/login" element={<Masuk />}/>
           <Route exact path="/verifikasi" element={<Verifikasi/>}/>
+          <Route exact path="/verifRegister" element={<VerifRegister/>}/>
         </Routes>
       </Router>
     </div>

@@ -46,18 +46,17 @@ const Verifikasi = () => {
           </Link>
 
           <div className="flex flex-row justify-center text-2xl mt-10 gap-5 text-gray-200">
+          <Link to="https://www.facebook.com">
             <BsFacebook />
+          </Link>
+          <Link to="https://discord.com/">
             <BsDiscord />
+          </Link>
+          <Link to="https://www.youtube.com/">
             <BsYoutube />
+          </Link>
           </div>
         </div>
-        {/* <div className="w-1/2 sm:block hidden  ">
-          <img
-            src={login}
-            alt=""
-            className=" rounded-2xl h-[500px] object-cover"
-          />
-        </div> */}
       </div>
     </section>
   );
